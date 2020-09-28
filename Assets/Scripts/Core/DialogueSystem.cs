@@ -120,6 +120,14 @@ public class DialogueSystem : MonoBehaviour
 
     }
 
+    public void Close()
+    {
+
+        StopSpeaking();
+        speechPanel.SetActive(false);
+
+    }
+
     [System.Serializable]
     public class ELEMENTS
     {
